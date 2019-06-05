@@ -16,7 +16,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-@RunWith(PowerMockRunner.class)
+ @RunWith(PowerMockRunner.class)
 @PrepareForTest(DataSourceConfig.class)
 @PowerMockIgnore("javax.management.*")
 public class TestTemplateProcessor implements DataSourceType{
